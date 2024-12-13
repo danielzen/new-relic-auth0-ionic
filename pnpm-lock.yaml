@@ -56,6 +56,9 @@ importers:
       '@ionic/angular':
         specifier: ^8.4.1
         version: 8.4.1(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10))(@angular/forms@18.2.13(@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10))(@angular/platform-browser@18.2.13(@angular/animations@18.2.13(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10)))(@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10)))(rxjs@7.8.1))(@angular/router@18.2.13(@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10))(@angular/platform-browser@18.2.13(@angular/animations@18.2.13(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10)))(@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10)))(rxjs@7.8.1))(rxjs@7.8.1)(zone.js@0.14.10)
+      '@newrelic/newrelic-capacitor-plugin':
+        specifier: ^1.5.4
+        version: 1.5.4(@capacitor/core@6.2.0)
       ionicons:
         specifier: ^7.4.0
         version: 7.4.0
@@ -1569,6 +1572,11 @@ packages:
     resolution: {integrity: sha512-x0fWaQtYp4E6sktbsdAqnehxDgEc/VwM7uLsRCYWaiGu0ykYdZPiS8zCWdnjHwyiumousxfBm4SO31eXqwEZhQ==}
     cpu: [x64]
     os: [win32]
+
+  '@newrelic/newrelic-capacitor-plugin@1.5.4':
+    resolution: {integrity: sha512-sRhFiGs9Z3SpTTM6PNxXyaDCBeN0Fm7CChiiCjAfl1e3iHbxUd1/LPOPn4dXY3k3ArJ3RNsiZDg3Yt7tP+jtFA==}
+    peerDependencies:
+      '@capacitor/core': ^6.0.0
 
   '@ngtools/webpack@18.2.12':
     resolution: {integrity: sha512-FFJAwtWbtpncMOVNuULPBwFJB7GSjiUwO93eGTzRp8O4EPQ8lCQeFbezQm/NP34+T0+GBLGzPSuQT+muob8YKw==}
@@ -7021,6 +7029,10 @@ snapshots:
 
   '@msgpackr-extract/msgpackr-extract-win32-x64@3.0.3':
     optional: true
+
+  '@newrelic/newrelic-capacitor-plugin@1.5.4(@capacitor/core@6.2.0)':
+    dependencies:
+      '@capacitor/core': 6.2.0
 
   '@ngtools/webpack@18.2.12(@angular/compiler-cli@18.2.13(@angular/compiler@18.2.13(@angular/core@18.2.13(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.4.5))(typescript@5.4.5)(webpack@5.94.0(esbuild@0.23.0))':
     dependencies:
